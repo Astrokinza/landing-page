@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+nav{
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 13%;
+    justify-content: space-evenly;
+    font-family: 'Raleway', sans-serif;
+    font-family: 400;
+}
+
+
+@media (max-width:802px) {
+    body{
+        font-family: 'Fira Sans', sans-serif;
+    }
+    nav{
+        font-family: 'Fira Sans', sans-serif;
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        margin-top: 25px;
+        margin-left: 13%;
+        justify-content: space-evenly;
+        font-family: 'Raleway', sans-serif;
+        font-family: 400;
+    }
+    li{
+        margin-left: 5px;
+        margin-right: 20px;
+        font-weight: 590;
+    }
+    a{
+        text-decoration: none;
+        color: hsl(243, 87%, 12%)
+    }
+    #logo{
+        width: 100px;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #ill-1{
+        width: 100%;
+        margin-top: 100px;
+    }
+    #idk-1{
+        font-size: 35px;
+    }
+    .idk{
+        text-align: center;
+        margin-top: 60px
+    }
+    #idk-2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    input{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 45px;
+        margin-bottom: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    input::placeholder{
+        font-size: 16px;
+        padding: 15px;
+    }
+    button{
+        width: 305px;
+        height: 40px;
+        background-color: hsl(224, 93%, 58%);
+        border: 0px;
+        border-radius: 5px;
+        color: aqua;
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 84px
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    
+    .section-2{
+        margin-top: 130px;
+        background-image: url(images/bg-curve-mobile.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 2600px 1210px;
+        width: 100%;
+        height: 1210px;
+    }
+    
+    #illis-2{
+        margin-top: 100px;
+        margin-left: 40px;
+        width: 80%;
+    }
+    .section-2 > h2{
+        margin-left: 80px;
+        font-size: 19px;
+        color: hsl(243, 87%, 12%);
+        font-family: 'Raleway', sans-serif;
+        font-weight:bold;
+    }
+    .desc{
+        margin-top: 40px;
+        margin-left: 50px;
+        font-size: 16px;
+        color: hsl(238, 22%, 44%);
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    .section-2 > article{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    #anc{
+        color: hsl(170, 45%, 43%);
+    }
+    .section-2 > article>img{
+        margin-top: 16px;
+        width: 20px;
+        height: 20px;
+        padding-left: 10px;
+    }
+    hr{
+        margin-top: -10px;
+        width: 165px;
+    }
+    .opinion{
+        width: 400px;
+        height: 250px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    #idk{
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .text{
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .text>img{
+        height: 15px;
+        width: 13px;
+    }
+    .art{
+        font-size: 16px;
+        color: hsl(243, 87%, 12%);
+    }
+    .art:not(:first-of-type){
+        margin-top: -8px;
+    } 
+    .avatar{
+        border-radius: 50%;
+        -webkit-transform:rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+      width: 33px;
+      height: 34;
+      margin-left: 27px;
+      margin-top: 10px;
+    }
+    #company{
+        margin-top: -15px;
+        font-size:12px;
+    }
+    .presentation{
+        margin-left: 75px;
+        margin-top: -55px;
+    }
+    
+    .sec-3{
+      background-color: hsl(238, 22%, 44%);
+      width: 475px;
+      height: 400px;
+      color: aliceblue;
+    }
+    #h1{
+        font-weight: 500;
+        font-size: 29px;
+        margin-bottom: 40px;
+    }
+    #sec-3-div{
+        text-align: center;
+        padding-top: 30px;
+    }
+    #sec-3-div>input{
+        border: 0;
+    }
+    #sec-3-div>button{
+        margin-left: 0px;
+        box-shadow: 1px 1px rgb(75, 75, 88);
+    }
+    .sent{
+        font-size: 18px;
+        margin-top: -15px;
+    }
+    #last{
+        margin-bottom: 35px;
+    }
+    button[type="submit"]{
+        margin-top: -9px;
+    }
+    footer{
+       background-color: hsl(243, 87%, 12%);
+        color: blanchedalmond;
+        width: 475px;
+        height: 700px;
+       
+    }
+    footer>*{
+        padding-left: 50px  
+    }
+    footer>img{
+        padding-top: 80px;
+        margin-bottom: 30px;
+        
+    }
+    .phone{
+        display: flex;
+        flex-direction: row;
+    }
+    .phone>img{
+        height: 20px;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    .a{
+        color: white;
+    }
+    #cont-1{
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+}
